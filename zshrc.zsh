@@ -89,6 +89,11 @@ export MENU_COMPLETE=1
                                   # around these characters to use them)
 
 
+# Don't try to strip the space between the end of a line and a | character
+# (See http://superuser.com/questions/613685/)
+ZLE_REMOVE_SUFFIX_CHARS=$' \t\n;&'
+
+
 # Make ^H and backspace behave correctly
 bindkey "^H" backward-delete-char
 
