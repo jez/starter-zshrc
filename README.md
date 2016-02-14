@@ -26,7 +26,7 @@ $ git clone https://github.com/robbyrussell/oh-my-zsh ~/.oh-my-zsh
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
 # and finally download this zshrc (WARNING: overwrites your current one!):
-$ curl https://github.com/jez/starter-zshrc/blob/master/zshrc.zsh > ~/.zshrc
+$ curl https://raw.githubusercontent.com/jez/starter-zshrc/master/zshrc.zsh > ~/.zshrc
 $ zsh
 ```
 
